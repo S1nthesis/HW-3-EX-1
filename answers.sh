@@ -1,10 +1,10 @@
-SELECT Name FROM Students;
-SELECT * FROM Students WHERE Age > 30;
-SELECT Name FROM Students WHERE Gender='F' AND Age=30;
-SELECT Points FROM Students WHERE Name='Alex';
-INSERT INTO Students VALUES(10, 'Nabigha', '24', 'F', 500);
-UPDATE Students SET Points = 500 WHERE Name='Basma';
-UPDATE Students SET Points = 100 WHERE Name='Alex';
+SELECT Name FROM students;
+SELECT * FROM students WHERE Age > 30;
+SELECT Name FROM students WHERE Gender='F' AND Age=30;
+SELECT Points FROM students WHERE Name='Alex';
+INSERT INTO students VALUES(7, 'Christopher', '21', 'M', 500);
+UPDATE students SET Points = 500 WHERE Name='Basma';
+UPDATE students SET Points = 100 WHERE Name='Alex';
 
 CREATE TABLE graduates(
     ID INTEGER  PRIMARY KEY AUTOINCREMENT,
